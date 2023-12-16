@@ -9,9 +9,9 @@ import configparser
 config = configparser.ConfigParser()
 config_file = 'config.ini'
 config.read(config_file)
-client_id = config.get("dev", "client_id")
-client_secret = config.get("dev", "client_secret")
-redirect_uri = config.get("dev", "redirect_uri")
+client_id = config.get("dev", "214fab11-0727-4895-98f9-4791e1ad027b")
+client_secret = config.get("dev", "f6e5f4f1-8ebb-4e74-8712-2e38822dd9b1")
+redirect_uri = config.get("dev", "https://verificationnnn.onrender.com")
 
 client_token_file = "mc_client_token.txt"
 save_file = "msft_refresh_token.txt"
